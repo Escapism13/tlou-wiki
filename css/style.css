@@ -1,0 +1,133 @@
+/* general */
+body {
+  margin: 0;
+  background-image: url(../media/BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center center;
+}
+* {
+  font-family: "main";
+  font-size: 18px;
+  color: #ffad40;
+}
+h1 {
+  font-family: "main";
+  font-size: 38px;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  font-family: "main";
+  font-size: 38px;
+  color: white;
+}
+#text {
+  font-family: "main";
+  color: white;
+  font-size: 18px;
+}
+#link {
+  font-family: "bold";
+  font-size: 18px;
+}
+hr {
+  display: grid;
+  margin: 0;
+  margin-top: 3px;
+  width: 50%;
+  border: 1px solid #007241;
+  margin-bottom: 1%;
+}
+#title__text {
+  font-family: "main";
+  color: white;
+  font-size: 28px;
+}
+#block {
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 5px #00351e;
+  padding: 1%;
+}
+@font-face {
+  font-family: "bold";
+  src: url(../media/fonts/ChironGoRoundTC-Bold.ttf);
+}
+@font-face {
+  font-family: "main";
+  src: url(../media/fonts/ChironGoRoundTC-Regular.ttf);
+}
+input {
+  background-color: transparent;
+  border: 2px solid;
+}
+/* header */
+nav > ul {
+  list-style: none;
+}
+.header {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  background-color: rgb(21, 21, 21);
+}
+.header__inner {
+  display: grid;
+  grid-template-columns: 70% 15% 15%;
+  justify-self: center;
+}
+.title__header {
+  margin-left: 70%;
+}
+.search__inner {
+  width: 100%;
+}
+.search {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 10%;
+  justify-self: center;
+}
+/* main */
+.main__block {
+  display: grid;
+  background-color: rgb(27, 27, 27);
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 1%;
+  margin-bottom: 5%;
+}
+
+.logo {
+  display: grid;
+  justify-content: center;
+  margin-top: 2%;
+}
+.navigation__main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  margin-top: 10%;
+}
+.navigation__main__inner > img {
+  width: 60%;
+  justify-self: center;
+}
+.navigation__main__inner {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  text-align: center;
+  align-self: center;
+}
+footer {
+  background-color: black;
+  height: 10%;
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
