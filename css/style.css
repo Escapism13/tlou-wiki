@@ -148,8 +148,16 @@ input:focus {
   gap: 15px;
   margin-top: 10%;
 }
+
+.all__way {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
 .navigation__main__inner > img {
   width: 60%;
+  display: grid;
   justify-self: center;
 }
 .navigation__main__inner {
@@ -160,6 +168,9 @@ input:focus {
 }
 .navigation__main__inner:hover {
   transform: scale(1.1);
+}
+.navigation__main__inner:active {
+  transform: scale(0.9);
 }
 footer {
   background-color: black;
@@ -187,6 +198,9 @@ footer {
 .ep__tlou__inner:hover {
   transform: scale(1.1);
 }
+.ep__tlou__inner:active {
+  transform: scale(0.9);
+}
 .ep__tlou__dlc__inner > img {
   width: 90%;
   justify-self: center;
@@ -206,6 +220,9 @@ footer {
 }
 .ep__tlou__dlc__inner:hover {
   transform: scale(1.1);
+}
+.ep__tlou__dlc__inner:active {
+  transform: scale(0.9);
 }
 .soon {
   align-content: center;
