@@ -1,7 +1,7 @@
 /* general */
 body {
   margin: 0;
-  background-image: url(/media/main/BG.jpg);
+  background-image: url(../media/main/BG.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -71,11 +71,11 @@ hr {
 }
 @font-face {
   font-family: "bold";
-  src: url(/media/fonts/ChironGoRoundTC-Bold.ttf);
+  src: url(../media/fonts/ChironGoRoundTC-Bold.ttf);
 }
 @font-face {
   font-family: "main";
-  src: url(/media/fonts/ChironGoRoundTC-Regular.ttf);
+  src: url(../media/fonts/ChironGoRoundTC-Regular.ttf);
 }
 input {
   background-color: transparent;
