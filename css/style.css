@@ -21,6 +21,28 @@ h1 {
   font-family: "main";
   font-size: 38px;
 }
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  padding: 12px 20px;
+  background-color: #ffad40;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+#scrollToTopBtn:hover {
+  background-color: #ffad40;
+  box-shadow: 0px 0px 5px 5px #ffdbad;
+  transform: scale(1.1);
+}
+#scrollToTopBtn:active {
+  background-color: #ff9710;
+  transform: scale(0.9);
+}
 a {
   text-decoration: none;
 }
@@ -33,6 +55,32 @@ h3 {
   font-family: "main";
   font-size: 28px;
   color: white;
+}
+#table_img {
+  width: 100px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  border: 1px white;
+  text-align: center;
+}
+thead tr {
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  background-color: #f4f4f4;
+}
+th,
+td {
+  padding: 12px 15px;
+}
+tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:last-child {
+  border-bottom: 2px solid #333;
 }
 #text {
   font-family: "main";
